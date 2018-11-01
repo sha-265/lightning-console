@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Lightning Console",
+  "version": "0.1",
+
+  "description": "Accept lightning payment for Airconsole machine.",
+
+  "permissions": [
+    "webRequest",
+    "https://www.airconsole.com/highscore"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "icons": {
+    "48": "icons/border-48.png"
+  }
+}
